@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../style/css/main.css" />
+  <title>Foxminded | Home</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <main>
+    <section class="hero">
+      <div class="hero__top-bar">
+        <div class="header__logo">
+          <span class="logo-text">foxmind<span class="highlighted">ed</span></span>
+        </div>
+        <nav class="header__nav">
+          <a class="nav__btn" href="all-items.html">SHOP</a>
+          <a class="nav__btn" href="main-page.html">MAINPAGE</a>
+          <a class="nav__btn" href="history.html">OUR HISTORY</a>
+          <a class="nav__btn" href="all-items.html">ALL ITEMS</a>
+          <button class="nav__cart-btn" id="cartIconBtn">
+            <img src="../images/cart.svg" alt="cart icon" />
+          </button>
+        </nav>
+      </div>
+      <!-- hero content -->
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">...</footer>
+
+  <!-- CART -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-panel" id="cartPanel">
+    <button class="cart-panel__close" id="cartCloseBtn">×</button>
+    <h2 class="cart-panel__title">Your Bag</h2>
+    <div class="cart-panel__items" id="cart-items"></div>
+    <div class="cart-panel__total">
+      <strong>Total:</strong> <span id="cart-total">£0.00</span>
+    </div>
+    <button class="cart-panel__checkout">Checkout</button>
+  </aside>
+
+  <script type="module" src="../src/main.js"></script>
+</body>
+</html>

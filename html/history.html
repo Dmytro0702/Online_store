@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../style/css/main.css" />
+  <title>Our History</title>
+</head>
+<body>
+
+  <header class="history-header">
+    <div class="history-header__top">
+      <span class="logo-text">foxmind<span class="highlighted">ed</span></span>
+      <nav class="nav">
+        <a href="main-page.html" class="nav__btn">SHOP</a>
+        <a href="main-page.html" class="nav__btn">MAINPAGE</a>
+        <a href="#" class="nav__btn active">OUR HISTORY</a>
+        <a href="all-items.html" class="nav__btn">ALL ITEMS</a>
+        <a href="#" class="nav__cart-btn" id="cartIconBtn">
+          <img src="../images/cart.svg" alt="cart icon" />
+        </a>
+      </nav>
+    </div>
+    <p class="breadcrumb">Home / About us</p>
+    <h1 class="history-title">Our history</h1>
+  </header>
+
+  <main class="history-content">
+    <section class="history-block">
+      <div class="history-block__text">
+        <h3>Where the fox story began</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Amet aliquam non congue vivamus. Viverra consequat donec fringilla dolor
+          pharetra tellus nibh ultricies purus. Id netus semper feugiat elit turpis convallis platea. Aliquam semper in amet
+          vitae sit augue non.
+        </p>
+        <p>
+          Sit arcu phasellus morbi diam nullam. Proin lorem nunc ante aliquam mauris nunc. Egestas leo orci pellentesque cras.
+          Vitae id enim amet dolor tellus dignissim id mattis.
+        </p>
+      </div>
+      <div class="history-block__img">
+        <img src="../images/Rectangle 194.svg" alt="Fox Cubs" />
+      </div>
+    </section>
+
+    <section class="history-block reverse">
+      <div class="history-block__img">
+        <img src="../images/Rectangle 193.svg" alt="Sunset Fox" />
+      </div>
+      <div class="history-block__text highlighted-block">
+        <h3>Inspired by the wild</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Amet aliquam non congue vivamus. Viverra consequat donec fringilla dolor
+          pharetra tellus nibh ultricies purus. Id netus semper feugiat elit turpis convallis platea. Aliquam semper in amet
+          vitae sit augue non.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__logo">foxmind<span class="highlighted">ed</span></div>
+    <div class="footer__info">
+      <p>Lorem ipsum dolor sit amet consectetur consectetur</p>
+      <p>Call us : 8956 3254 7887</p>
+    </div>
+    <div class="footer__icons">
+      <img src="../images/instagram.svg" alt="Instagram" />
+    </div>
+    <div class="footer__nav">
+      <div class="column"><h4>Shop</h4><p>Lorem ipsum</p><p>Lorem ipsum</p></div>
+      <div class="column"><h4>Products</h4><p>Lorem ipsum</p><p>Lorem ipsum</p></div>
+      <div class="column"><h4>Collection</h4><p>Lorem ipsum</p><p>Lorem ipsum</p><p>Lorem ipsum</p></div>
+      <div class="column"><h4>Weekly updates</h4><p>Lorem ipsum</p><p>Lorem ipsum</p><p>Lorem ipsum</p></div>
+      <div class="column"><h4>About us</h4><p>Lorem ipsum</p><p>Lorem ipsum</p><p>Lorem ipsum</p></div>
+    </div>
+    <div class="footer__bottom">
+      Storelogo, 2023 All rights reserved
+    </div>
+  </footer>
+
+  <!-- Cart Panel -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-panel" id="cartPanel">
+    <button class="cart-panel__close" id="cartCloseBtn">×</button>
+    <h2 class="cart-panel__title">Your Bag</h2>
+    <div class="cart-panel__items" id="cart-items"></div>
+    <div class="cart-panel__total">
+      <strong>Total:</strong> <span id="cart-total">£0.00</span>
+    </div>
+    <button class="cart-panel__checkout">Checkout</button>
+  </aside>
+
+  <script type="module" src="../src/main.js"></script>
+</body>
+</html>

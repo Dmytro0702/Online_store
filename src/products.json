@@ -1,0 +1,10 @@
+[
+  { "id": 1, "name": "Stylish Fox", "description": "Elegant fox standing in the grass", "price": 120.00, "image": "images/1.svg", "category": "Forest", "rating": 5 },
+  { "id": 2, "name": "Winter Fox", "description": "Fluffy fox in a snowy setting", "price": 120.00, "image": "images/2.svg", "category": "Office", "rating": 5 },
+  { "id": 3, "name": "Fox Cubs Duo", "description": "Two young foxes exploring together", "price": 120.00, "image": "images/3.svg", "category": "Foxkid", "rating": 5 },
+  { "id": 4, "name": "Curious Fox", "description": "Playful young fox on a tree stump", "price": 120.00, "image": "images/4.svg", "category": "Foxkid", "rating": 5 },
+  { "id": 5, "name": "Sunset Fox", "description": "Fox resting under warm sunlight", "price": 120.00, "image": "images/5.svg", "category": "Forest", "rating": 5 },
+  { "id": 6, "name": "Lazy Fox", "description": "Relaxed fox chilling on a carpet", "price": 120.00, "image": "images/6.svg", "category": "Other", "rating": 5 },
+  { "id": 7, "name": "Mountain Fox", "description": "Fox in front of snowy mountains", "price": 120.00, "image": "images/7.svg", "category": "Forest", "rating": 5 },
+  { "id": 8, "name": "Fox Cubs Hug", "description": "Two young foxes cuddling", "price": 120.00, "image": "images/8.svg", "category": "Foxkid", "rating": 5 }
+]

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../style/css/main.css" />
+  <title>All Items</title>
+</head>
+<body>
+
+  <header class="all-header">
+    <div class="all-header__top">
+      <span class="logo-text">foxmind<span class="highlighted">ed</span></span>
+      <nav class="nav">
+        <a href="main-page.html" class="nav__btn">SHOP</a>
+        <a href="main-page.html" class="nav__btn">MAINPAGE</a>
+        <a href="history.html" class="nav__btn">OUR HISTORY</a>
+        <a href="#" class="nav__btn active">ALL ITEMS</a>
+        <a href="#" class="nav__cart-btn" id="cartIconBtn">
+          <img src="../images/cart.svg" alt="cart icon" />
+        </a>
+      </nav>
+    </div>
+    <p class="breadcrumb">Home / All Items</p>
+    <h1 class="page-title">All Items</h1>
+  </header>
+
+  <main class="all-main">
+    <aside class="sidebar">
+      <div class="search">
+        <input type="text" id="search-input" placeholder="Search" class="search__input" />
+        <button class="search__btn">
+          <img src="../images/search.svg" alt="search icon" />
+        </button>
+      </div>
+
+      <div class="filter-group">
+        <h4>Topic</h4>
+        <button class="filter-btn controls__category active" data-category="All">All</button>
+        <button class="filter-btn controls__category" data-category="Forest">Forest</button>
+        <button class="filter-btn controls__category" data-category="Foxkid">Foxkid</button>
+        <button class="filter-btn controls__category" data-category="Other">Other</button>
+      </div>
+
+      <div class="filter-group">
+        <h4>Price</h4>
+        <input type="range" min="0" max="200" value="120" id="filter-price" class="price-slider" />
+        <div class="price-value" id="filter-price-value">Value: £120</div>
+      </div>
+    </aside>
+
+    <section class="product-grid" id="product-list">
+      <!-- JS inserts product cards -->
+    </section>
+  </main>
+
+  <div class="center">
+    <button class="btn-all-foxes">All foxes</button>
+  </div>
+
+  <footer class="footer">
+    <!-- Footer content here -->
+  </footer>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+
+  <aside class="cart-panel" id="cartPanel">
+    <button class="cart-panel__close" id="cartCloseBtn">×</button>
+    <h2 class="cart-panel__title">Your Bag</h2>
+    <div class="cart-panel__items" id="cart-items"></div>
+    <div class="cart-panel__total">
+      <strong>Total:</strong> <span id="cart-total">£0.00</span>
+    </div>
+    <button class="cart-panel__checkout">Checkout</button>
+  </aside>
+
+  <script type="module" src="../src/main.js"></script>
+</body>
+</html>
