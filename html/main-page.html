@@ -8,7 +8,6 @@
 </head>
 <body>
 
-  <!-- HEADER -->
   <main>
     <section class="hero">
       <div class="hero__top-bar">
@@ -16,34 +15,104 @@
           <span class="logo-text">foxmind<span class="highlighted">ed</span></span>
         </div>
         <nav class="header__nav">
-          <a class="nav__btn" href="all-items.html">SHOP</a>
-          <a class="nav__btn" href="main-page.html">MAINPAGE</a>
-          <a class="nav__btn" href="history.html">OUR HISTORY</a>
-          <a class="nav__btn" href="all-items.html">ALL ITEMS</a>
-          <button class="nav__cart-btn" id="cartIconBtn">
+          <button class="nav__btn">SHOP</button>
+          <button class="nav__btn">MAINPAGE</button>
+          <button class="nav__btn">OUR HISTORY</button>
+          <button class="nav__btn">ALL ITEMS</button>
+          <button class="nav__cart-btn">
             <img src="../images/cart.svg" alt="cart icon" />
           </button>
         </nav>
       </div>
-      <!-- hero content -->
+
+      <div class="hero__image">
+        <img src="../images/hero-fox.svg" alt="fox hero" />
+      </div>
+
+      <div class="hero__overlay">
+        <div class="hero__content">
+          <h1 class="hero__title">Discover <span class="highlighted">foxlife</span></h1>
+          <p class="hero__desc">
+            Lorem ipsum dolor sit amet consectetur. Phareget turpis sem ultricies dolor sit amet consectetur.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="categories">
+      <div class="category">
+        <img src="../images/chicken.svg" alt="chicken icon" class="category__icon" />
+        <h4>#Food</h4>
+        <p>Lorem ipsum dolor sit amet ipsum</p>
+      </div>
+      <div class="category">
+        <img src="../images/rooster.svg" alt="rooster icon" class="category__icon" />
+        <h4>#Office</h4>
+        <p>Lorem ipsum dolor sit amet ipsum</p>
+      </div>
+      <div class="category">
+        <img src="../images/fox.svg" alt="fox icon" class="category__icon" />
+        <h4>#House</h4>
+        <p>Lorem ipsum dolor sit amet ipsum</p>
+      </div>
+    </div>
+
+    <div class="center">
+      <button class="btn-all-foxes">All foxes</button>
+    </div>
+
+    <section class="newsletter">
+      <h2 class="newsletter__title">Join our newsletter</h2>
+      <p class="newsletter__desc">
+        Lorem ipsum dolor sit amet consectetur. Molestie turpis quis turpis fermentum egestas bibendum.<br>
+        Lorem ipsum dolor sit amet consectetur.
+      </p>
+      <form class="newsletter__form">
+        <input type="email" class="newsletter__input" placeholder="Enter email" required />
+        <button type="submit" class="newsletter__btn">Subscribe</button>
+      </form>
     </section>
   </main>
 
-  <!-- FOOTER -->
-  <footer class="footer">...</footer>
-
-  <!-- CART -->
-  <div class="cart-overlay" id="cartOverlay"></div>
-  <aside class="cart-panel" id="cartPanel">
-    <button class="cart-panel__close" id="cartCloseBtn">×</button>
-    <h2 class="cart-panel__title">Your Bag</h2>
-    <div class="cart-panel__items" id="cart-items"></div>
-    <div class="cart-panel__total">
-      <strong>Total:</strong> <span id="cart-total">£0.00</span>
+  <footer class="footer">
+    <div class="footer__logo">
+     <img src="../images/556042593.svg" alt="Foxminded" /> 
     </div>
-    <button class="cart-panel__checkout">Checkout</button>
-  </aside>
+    <div class="footer__info">
+      <p>Lorem ipsum dolor sit amet consectetur consectetur</p>
+      <p>Call us : 8956 3254 7887</p>
+    </div>
+    <div class="footer__icons">
+      <img src="../images/instagram.svg" alt="Instagram" />
+    </div>
+    <div class="footer__nav">
+      <div class="column"><h4>Shop</h4><p>Lorem ipsum</p><p>Lorem ipsum</p></div>
+      <div class="column"><h4>Products</h4><p>Lorem ipsum</p><p>Lorem ipsum</p></div>
+      <div class="column"><h4>Collection</h4><p>Lorem ipsum</p><p>Lorem ipsum</p><p>Lorem ipsum</p></div>
+      <div class="column"><h4>Weekly updates</h4><p>Lorem ipsum</p><p>Lorem ipsum</p><p>Lorem ipsum</p></div>
+      <div class="column"><h4>About us</h4><p>Lorem ipsum</p><p>Lorem ipsum</p><p>Lorem ipsum</p></div>
+    </div>
+    <div class="footer__bottom">
+      Storelogo, 2023 All rights reserved
+    </div>
+  </footer>
 
-  <script type="module" src="../src/main.js"></script>
+  <div class="cart-overlay" id="cartOverlay"></div>
+
+<aside class="cart-panel" id="cartPanel">
+  <button class="cart-panel__close" id="cartCloseBtn">×</button>
+  <h2 class="cart-panel__title">Your Bag</h2>
+  <div class="cart-panel__items" id="cartItems">
+    
+  </div>
+  <div class="cart-panel__total">
+    <strong>Total:</strong> <span id="cartTotal">$0.00</span>
+  </div>
+  <button class="cart-panel__checkout">Checkout</button>
+</aside>
+
+ <script type="module" src="../src/main.js"></script>
+
+
 </body>
 </html>

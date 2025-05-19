@@ -12,23 +12,23 @@
     <div class="all-header__top">
       <span class="logo-text">foxmind<span class="highlighted">ed</span></span>
       <nav class="nav">
-        <a href="main-page.html" class="nav__btn">SHOP</a>
-        <a href="main-page.html" class="nav__btn">MAINPAGE</a>
-        <a href="history.html" class="nav__btn">OUR HISTORY</a>
+        <a href="#" class="nav__btn">SHOP</a>
+        <a href="#" class="nav__btn">MAINPAGE</a>
+        <a href="#" class="nav__btn">OUR HISTORY</a>
         <a href="#" class="nav__btn active">ALL ITEMS</a>
-        <a href="#" class="nav__cart-btn" id="cartIconBtn">
+        <a href="#" class="nav__cart-btn">
           <img src="../images/cart.svg" alt="cart icon" />
         </a>
       </nav>
     </div>
     <p class="breadcrumb">Home / All Items</p>
-    <h1 class="page-title">All Items</h1>
+    <h1 class="page-title">All Ites</h1>
   </header>
 
   <main class="all-main">
     <aside class="sidebar">
       <div class="search">
-        <input type="text" id="search-input" placeholder="Search" class="search__input" />
+        <input type="text" placeholder="Search" class="search__input" />
         <button class="search__btn">
           <img src="../images/search.svg" alt="search icon" />
         </button>
@@ -36,21 +36,109 @@
 
       <div class="filter-group">
         <h4>Topic</h4>
-        <button class="filter-btn controls__category active" data-category="All">All</button>
-        <button class="filter-btn controls__category" data-category="Forest">Forest</button>
-        <button class="filter-btn controls__category" data-category="Foxkid">Foxkid</button>
-        <button class="filter-btn controls__category" data-category="Other">Other</button>
+        <button class="filter-btn active">All</button>
+        <button class="filter-btn">Forest</button>
+        <button class="filter-btn">Fox kids</button>
+        <button class="filter-btn">Other</button>
       </div>
 
       <div class="filter-group">
-        <h4>Price</h4>
-        <input type="range" min="0" max="200" value="120" id="filter-price" class="price-slider" />
-        <div class="price-value" id="filter-price-value">Value: £120</div>
+        <h4>Prise</h4>
+        <input type="range" min="0" max="200" value="80" class="price-slider" />
+        <div class="price-value">Value: $80</div>
       </div>
     </aside>
 
-    <section class="product-grid" id="product-list">
-      <!-- JS inserts product cards -->
+    <section class="product-grid">
+      
+      <div class="product-card">
+        <img src="../images/1.svg" alt="Fox" class="product-card__image" />
+        <div class="product-card__info">
+          <h3>Stylish chair</h3>
+          <p class="price">$120.00</p>
+          <p class="stars">★★★★★</p>
+          <p class="tag">Forest</p>
+          <button class="add-btn">Add</button>
+          </div>
+          </div>
+
+          <div class="product-card">
+        <img src="../images/2.svg" alt="Fox" class="product-card__image" />
+        <div class="product-card__info">
+          <h3>Stylish chair</h3>
+          <p class="price">$120.00</p>
+          <p class="stars">★★★★★</p>
+          <p class="tag">Forest</p>
+          <button class="add-btn">Add</button>
+        </div>
+          </div>
+
+        <div class="product-card">
+        <img src="../images/3.svg" alt="Fox" class="product-card__image" />
+        <div class="product-card__info">
+          <h3>Stylish chair</h3>
+          <p class="price">$120.00</p>
+          <p class="stars">★★★★★</p>
+          <p class="tag">Forest</p>
+          <button class="add-btn">Add</button>
+        </div>
+        </div>
+
+        <div class="product-card">
+        <img src="../images/4.svg" alt="Fox" class="product-card__image" />
+        <div class="product-card__info">
+          <h3>Stylish chair</h3>
+          <p class="price">$120.00</p>
+          <p class="stars">★★★★★</p>
+          <p class="tag">Forest</p>
+          <button class="add-btn">Add</button>
+        </div>
+        </div>
+
+        <div class="product-card">
+        <img src="../images/5.svg" alt="Fox" class="product-card__image" />
+        <div class="product-card__info">
+          <h3>Stylish chair</h3>
+          <p class="price">$120.00</p>
+          <p class="stars">★★★★★</p>
+          <p class="tag">Forest</p>
+          <button class="add-btn">Add</button>
+        </div>
+        </div>
+
+        <div class="product-card">
+        <img src="../images/6.svg" alt="Fox" class="product-card__image" />
+        <div class="product-card__info">
+          <h3>Stylish chair</h3>
+          <p class="price">$120.00</p>
+          <p class="stars">★★★★★</p>
+          <p class="tag">Forest</p>
+          <button class="add-btn">Add</button>
+        </div>
+        </div>
+
+        <div class="product-card">
+        <img src="../images/7.svg" alt="Fox" class="product-card__image" />
+        <div class="product-card__info">
+          <h3>Stylish chair</h3>
+          <p class="price">$120.00</p>
+          <p class="stars">★★★★★</p>
+          <p class="tag">Forest</p>
+          <button class="add-btn">Add</button>
+        </div>
+        </div>
+
+        <div class="product-card">
+        <img src="../images/8.svg" alt="Fox" class="product-card__image" />
+        <div class="product-card__info">
+          <h3>Stylish chair</h3>
+          <p class="price">$120.00</p>
+          <p class="stars">★★★★★</p>
+          <p class="tag">Forest</p>
+          <button class="add-btn">Add</button>
+        </div>
+      </div>
+
     </section>
   </main>
 
@@ -59,11 +147,27 @@
   </div>
 
   <footer class="footer">
-    <!-- Footer content here -->
+    <div class="footer__logo">foxmind<span class="highlighted">ed</span></div>
+    <div class="footer__info">
+      <p>Lorem ipsum dolor sit amet consectetur consectetur</p>
+      <p>Call us : 8956 3254 7887</p>
+    </div>
+    <div class="footer__icons">
+      <img src="../images/instagram.svg" alt="Instagram" />
+    </div>
+    <div class="footer__nav">
+      <div class="column"><h4>Shop</h4><p>Lorem ipsum</p><p>Lorem ipsum</p></div>
+      <div class="column"><h4>Products</h4><p>Lorem ipsum</p><p>Lorem ipsum</p></div>
+      <div class="column"><h4>Collection</h4><p>Lorem ipsum</p><p>Lorem ipsum</p><p>Lorem ipsum</p></div>
+      <div class="column"><h4>Weekly updates</h4><p>Lorem ipsum</p><p>Lorem ipsum</p><p>Lorem ipsum</p></div>
+      <div class="column"><h4>About us</h4><p>Lorem ipsum</p><p>Lorem ipsum</p><p>Lorem ipsum</p></div>
+    </div>
+    <div class="footer__bottom">
+      Storelogo, 2023 All rights reserved
+    </div>
   </footer>
 
   <div class="cart-overlay" id="cartOverlay"></div>
-
   <aside class="cart-panel" id="cartPanel">
     <button class="cart-panel__close" id="cartCloseBtn">×</button>
     <h2 class="cart-panel__title">Your Bag</h2>
@@ -75,5 +179,6 @@
   </aside>
 
   <script type="module" src="../src/main.js"></script>
+
 </body>
 </html>
