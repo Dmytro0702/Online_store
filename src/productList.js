@@ -1,10 +1,10 @@
 export function renderProducts(products) {
-  const container = document.querySelector('#product-list');
+  const container = document.getElementById('product-list');
   if (!container) return;
 
-  const markup = products.map(p => `
+  container.innerHTML = products.map(p => `
     <div class="product-card">
-      <img src="${p.image}" alt="${p.name}" class="product-card__image" />
+      <img src="${p.image}" alt="${p.name}" class="product-card__image"/>
       <div class="product-card__info">
         <h3 class="product-card__title">${p.name}</h3>
         <p class="product-card__desc">${p.description}</p>
@@ -17,6 +17,4 @@ export function renderProducts(products) {
       </div>
     </div>
   `).join('');
-
-  container.innerHTML = markup;
 }

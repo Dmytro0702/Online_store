@@ -14,14 +14,15 @@
         <div class="header__logo">
           <span class="logo-text">foxmind<span class="highlighted">ed</span></span>
         </div>
-        <nav class="header__nav">
-          <button class="nav__btn">SHOP</button>
-          <button class="nav__btn">MAINPAGE</button>
-          <button class="nav__btn">OUR HISTORY</button>
-          <button class="nav__btn">ALL ITEMS</button>
-          <button class="nav__cart-btn">
-            <img src="../images/cart.svg" alt="cart icon" />
+        <nav class="nav">
+          <a href="shop.html" class="nav__btn">SHOP</a>
+          <a href="main-page.html" class="nav__btn active">MAINPAGE</a>
+          <a href="history.html" class="nav__btn">OUR HISTORY</a>
+          <a href="all-items.html" class="nav__btn ">ALL ITEMS</a>
+          <button id="cartIconBtn" class="nav__cart-btn">
+          <img src="../images/cart.svg" alt="cart icon"/>
           </button>
+
         </nav>
       </div>
 
@@ -102,11 +103,9 @@
 <aside class="cart-panel" id="cartPanel">
   <button class="cart-panel__close" id="cartCloseBtn">×</button>
   <h2 class="cart-panel__title">Your Bag</h2>
-  <div class="cart-panel__items" id="cartItems">
-    
-  </div>
+  <div class="cart-panel__items" id="cart-items"></div>
   <div class="cart-panel__total">
-    <strong>Total:</strong> <span id="cartTotal">$0.00</span>
+    <strong>Total:</strong> <span id="cart-total">£0.00</span>
   </div>
   <button class="cart-panel__checkout">Checkout</button>
 </aside>
@@ -116,3 +115,4 @@
 
 </body>
 </html>
+

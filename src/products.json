@@ -8,3 +8,4 @@
   { "id": 7, "name": "Mountain Fox", "description": "Fox in front of snowy mountains", "price": 120.00, "image": "../images/7.svg", "category": "Forest", "rating": 5 },
   { "id": 8, "name": "Fox Cubs Hug", "description": "Two young foxes cuddling", "price": 120.00, "image": "../images/8.svg", "category": "Foxkid", "rating": 5 }
 ]
+

@@ -2,7 +2,7 @@ import { renderProducts } from './productList.js';
 
 export function initFilter(products) {
   const searchInput = document.querySelector('#search-input');
-  const categoryButtons = document.querySelectorAll('.controls__category');
+  const categoryButtons = document.querySelectorAll('.filter-btn');
   const priceRange = document.querySelector('#filter-price');
   const priceValue = document.querySelector('#filter-price-value');
 
@@ -47,3 +47,4 @@ export function initFilter(products) {
 
   applyFilters();
 }
+
